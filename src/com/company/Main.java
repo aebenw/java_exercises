@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-
+        // ---------------------------------------- OO ------------------------------ //
 //        Car car = new Car();
 //        car.setModel("Toyota");
 //        System.out.println(car.getModel());
@@ -12,9 +12,19 @@ public class Main {
 //        myAccount.setBalace(10000);
 //        myAccount.withdraw(100000);
 //        System.out.println(myAccount.getBalace());
+//        VIPCustomer eben = new VIPCustomer();
+//        System.out.println(eben.getCredit());
 
-        VIPCustomer eben = new VIPCustomer();
-        System.out.println(eben.getCredit());
+//        Animal animal = new Animal(1, 1, "Animal", 5, 5);
+//        Dog yorkie = new Dog("Yorkie", 8, 20, 2, 4, 1, 20, "fluffy");
+//        Fish gilfoil = new Fish("gil", 1, 1);
+//        yorkie.eat();
+//        yorkie.run();
+//        yorkie.move(4);
+//        yorkie.walk();
+//        gilfoil.swim(2);
+        Toyota truck = new Toyota();
+        truck.paint("Red");
 
 
     }
@@ -52,21 +62,21 @@ public class Main {
 //        System.out.println(kiloBytes +"KB = " + mb + "MB" + kb + "KB");
 //    }
 
-    public static boolean isLeapYear(int year){
-        double r4 = year % 4;
-        double r100 = year % 100;
-        double r400 = year % 100;
-
-        if (year > 9999 || year < 1){
-            return false;
-        } else if (r400 != 0){
-            return true;
-        } else if(r100 == 0){
-            return false;
-        } else if(r4 == 0){
-            return true;
-        }
-        return true;
-    }
+//    public static boolean isLeapYear(int year){
+//        double r4 = year % 4;
+//        double r100 = year % 100;
+//        double r400 = year % 100;
+//
+//        if (year > 9999 || year < 1){
+//            return false;
+//        } else if (r400 != 0){
+//            return true;
+//        } else if(r100 == 0){
+//            return false;
+//        } else if(r4 == 0){
+//            return true;
+//        }
+//        return true;
+//    }
 
 }
