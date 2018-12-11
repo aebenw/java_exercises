@@ -4,22 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        boolean gameOver = true;
-//        int score = 800;
-//        int levelCompleted = 5;
-//        int bonus = 100;
-//        int highScore = calculateScore(true, score, levelCompleted, bonus);
-//        calculateScore(true, 1000, 8, 200);
-//
-//        score = 10000;
-//        levelCompleted = 8;
-//        bonus = 200;
-//
-//        highScore = calculateScore(gameOver, score, levelCompleted, bonus);
-//        System.out.println("high score: " + highScore);
-//        highScorePosition("Steve", calculateHighScorePosition(1000));
-        System.out.printf("true" + isLeapYear(1800));
+//        Car car = new Car();
+//        car.setModel("Toyota");
+//        System.out.println(car.getModel());
+//        BankAccount myAccount = new BankAccount();
+//        myAccount.setAccountNumber(12);
+//        myAccount.setBalace(10000);
+//        myAccount.withdraw(100000);
+//        System.out.println(myAccount.getBalace());
 
+        VIPCustomer eben = new VIPCustomer();
+        System.out.println(eben.getCredit());
 
 
     }
