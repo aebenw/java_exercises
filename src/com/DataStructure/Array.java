@@ -11,7 +11,7 @@ public class Array {
 //        myIntArray[5] = 2;
 
 //        Another Way of doing it
-        int[] myIntArray = {1,4,3,2,5};
+        int[] myIntArray = {1,4,3,2,5,6};
 
 
 //        Third Way
@@ -25,7 +25,13 @@ public class Array {
 //            System.out.println("Element " + i + ", value is" + myIntArray[i]);
 //        }
 //        System.out.println(myIntArray);
-        System.out.println(sortIntegers(myIntArray));
+//        System.out.println(sortIntegers(myIntArray));
+//        System.out.println(findMin(myIntArray));
+        reverse(myIntArray);
+
+
+
+
     }
 
     public static void printArray(int[] array){
@@ -58,9 +64,30 @@ public class Array {
         return sortedArray;
     }
 
+    public static int findMin(int[] array){
+        int temp = Integer.MAX_VALUE;
+        for(int i = 0; i< array.length; i++) {
+            if(array[i] < temp){
+                temp = array[i];
+            }
+        }
+        return temp;
+    }
 
+    public static void reverse(int[] array){
+        int mid = array.length/2;
+        int i = 0;
+        int j = array.length - 1;
+        while(i < j) {
+            int temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+            i++;
+            j--;
+        }
+        System.out.println(Arrays.toString(array));
 
-
+    }
 
 
 
