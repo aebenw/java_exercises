@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf4db76d-211e-451d-9a69-cdbae06cf1d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BigChallenge/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BigChallenge/DeluxeBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BigChallenge/HealthyBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BigChallenge/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BigChallenge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BigChallenge/Meat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Game/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Game/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/PolyMorphism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructure/ArrList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructure/GroceryList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/methods/com/DataStructure/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/methods/com/DataStructure/Array.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/DataStructure/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructure/Array.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,11 +27,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/DataStructure/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            <state relative-caret-position="521">
+              <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/DataStructure/ArrList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/DataStructure/GroceryList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -87,15 +108,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BigChallenge/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -111,8 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/SecondsAndMinutes.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Challenge.java" />
         <option value="$PROJECT_DIR$/src/com/company/AreaCalculator.java" />
         <option value="$PROJECT_DIR$/src/com/company/MinsToYearsAndDays.java" />
         <option value="$PROJECT_DIR$/src/com/company/printEqual.java" />
@@ -161,6 +171,9 @@
         <option value="$PROJECT_DIR$/src/com/BigChallenge/Burger.java" />
         <option value="$PROJECT_DIR$/src/com/BigChallenge/DeluxeBurger.java" />
         <option value="$PROJECT_DIR$/src/com/DataStructure/Array.java" />
+        <option value="$PROJECT_DIR$/src/com/DataStructure/ArrayList.java" />
+        <option value="$PROJECT_DIR$/src/com/DataStructure/ArrList.java" />
+        <option value="$PROJECT_DIR$/src/com/DataStructure/GroceryList.java" />
       </list>
     </option>
   </component>
@@ -209,7 +222,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544759202423" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544761930203" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -246,19 +259,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DataStructure.Main" />
-      <module name="methods" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.OO.Main" />
       <module name="methods" />
@@ -278,6 +278,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DataStructure.Main" />
+      <module name="methods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,7 +338,7 @@
     <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.13368984" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.13368984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -334,12 +347,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22278225" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3985873" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22278225" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985873" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.12298387" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30978808" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32694247" />
@@ -353,26 +366,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DataStructure/Array.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/AreaCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MinsToYearsAndDays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -696,8 +690,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/DataStructure/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        <state relative-caret-position="521">
+          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/DataStructure/ArrList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/DataStructure/GroceryList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
