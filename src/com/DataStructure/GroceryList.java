@@ -16,15 +16,39 @@ public class GroceryList {
         }
     }
 
-    public void modifyGroceryItem(int position, String newItem){
+    private void modifyGroceryItem(int position, String newItem){
         groceryList.set(position, newItem);
         System.out.println();
     }
 
+    public void removeItem(String item){
+        int position = findItem(item);
+        removeItem(position);
 
-    public void removeItem(int position){
+    }
+
+    private void removeItem(int position){
         String theItem = groceryList.get(position);
         groceryList.remove(position);
     }
+
+    private int findItem(String searchItem) {
+        int position = groceryList.indexOf(searchItem);
+        return position;
+
+    }
+
+    public void modifyGroceryItem(String newItem){
+        int position = findItem(newItem);
+        if (position >=0) {
+            modifyGroceryItem(position, newItem);
+        }
+    }
+
+    public ArrayList<String> getGroceryList() {
+        return groceryList;
+    }
+
+
 }
 
