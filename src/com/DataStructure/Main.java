@@ -14,7 +14,6 @@ public class Main {
         printInstructions();
 
 
-
     }
 
     private static void printInstructions(){
