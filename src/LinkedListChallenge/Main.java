@@ -21,7 +21,7 @@ public class Main {
         PlayList myPlaylist = new PlayList("Eben");
         myPlaylist.addAlbum("smokey the bear");
 //        System.out.println(album1.getSongs());
-//        Songs selected = album1.getSong("blazed");
+        Songs selected = album1.getSong("blazed");
 //        System.out.println(selected.getTitle());
 
 
