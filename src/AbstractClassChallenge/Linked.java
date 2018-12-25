@@ -49,27 +49,28 @@ public class Linked implements NodeList {
                         return true;
                     }
                 } else if (diff > 0) {
-                    ListItem temp = current.getPrev();
-                    current.setPrevious(node);
-                    node.setNext(current);
-                    node.setPrevious(temp);
-                    return true;
-                } else {
-                    node.setNext(this.head);
-                    this.head.setPrevious(node);
-                    this.head = node;
-                    return true;
+                        if(current.getPrev() == null){
+                            node.setNext(current);
+                            current.setPrevious(node);
+                            this.head = node;
+                        } else {
+                            node.setPrevious(current);
+                            current.getNext().setPrevious(node);
+                            current.setNext(node);
+
+                        }
+                        return true;
                 }
-                current = current.getNext();
             }
             return false;
     }
 
     @Override
     public void traverse(ListItem root) {
-        while(root != null){
-            System.out.println(root.getVal());
-            root = root.getNext();
+        ListItem current = this.head;
+        while(current != null){
+            System.out.println(current.getVal());
+            current = current.getNext();
         }
     }
 }
