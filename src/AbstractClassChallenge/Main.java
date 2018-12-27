@@ -15,6 +15,7 @@ public class Main {
         linker.addNode(three);
 
         linker.addNode(four);
+        linker.removeNode(two);
         linker.traverse(one);
 
 

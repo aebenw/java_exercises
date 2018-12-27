@@ -22,6 +22,28 @@ public class Linked implements NodeList {
 
     @Override
     public boolean removeNode(ListItem item) {
+        ListItem current = head;
+        while(current != null){
+            if(current == item){
+                if(current == head){
+                    current.getNext().setPrevious(null);
+                    this.head = current.getNext();
+                    current.setNext(null);
+
+                } else if(current.getNext() == null){
+                    current.getPrev().setNext(null);
+                    current.setPrevious(null);
+                } else {
+                    current.getNext().setPrevious(current.getPrev());
+                    current.getPrev().setNext(current.getNext());
+                    item.setPrevious(null);
+                    item.setNext(null);
+                }
+                return true;
+
+            }
+            current = current.getNext();
+        }
         return false;
     }
 
@@ -73,4 +95,6 @@ public class Linked implements NodeList {
             current = current.getNext();
         }
     }
+
+
 }
