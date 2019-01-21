@@ -27,10 +27,10 @@ public class Main {
 
     }
 
-    public static void printDouble(ArrayList<Integer> n){
+    public static void printDouble(ArrayList n){
         //type can be Object, Integer, or int
-        for(int i : n){
-            System.out.println(i * 2);
+        for(Object i : n){
+            System.out.println((Integer) i * 2);
         }
     }
 
